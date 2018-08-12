@@ -1,0 +1,35 @@
+src/*.exe
+src/silkroadcoin
+src/silkroadcoind
+src/test_silkroadcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.silkroadcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+silkroadcoin-qt
+silkroadcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+silkroadcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+src/leveldb-lin/leveldb/
